@@ -1,0 +1,8 @@
+{
+  "name": "crystal-liu-archive",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"start": "node scripts/serve.mjs", "collect": "node scripts/collect.mjs", "check": "node scripts/check.mjs"},
+  "dependencies": {"sharp": "^0.34.5"}
+}
