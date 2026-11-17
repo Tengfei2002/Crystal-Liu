@@ -19,12 +19,14 @@ for(const p of photos){
   assert(p.date===null||/^\d{4}-\d{2}-\d{2}$/.test(p.date),'Invalid date format');
   assert.equal(p.year,p.date?Number(p.date.slice(0,4)):null);
   assert(p.width>0&&p.height>0&&p.bytes>0);
-  assert(p.original.startsWith('assets/originals/')&&p.thumbnail.startsWith('assets/thumbs/'));
-  const b=await fs.readFile(p.original);assert.equal(b.length,p.bytes);assert.equal(createHash('sha256').update(b).digest('hex'),p.sha256,`Original corrupted ${p.id}`);
-  const t=await fs.stat(p.thumbnail);assert(t.size>100);thumbs+=t.size;total+=b.length;
+  assert((p.original.startsWith('assets/originals/')||p.original.startsWith('https://github.com/Tengfei2002/Crystal-Liu/releases/download/'))&&p.thumbnail.startsWith('assets/thumbs/'));
+  if(process.argv.includes('--full')){const b=await fs.readFile(p.originalLocal||p.original);assert.equal(b.length,p.bytes);assert.equal(createHash('sha256').update(b).digest('hex'),p.sha256,`Original corrupted ${p.id}`);}
+  total+=p.bytes;
+  const t=await fs.stat(p.thumbnail);assert(t.size>100);thumbs+=t.size;
 }
 assert.equal(report.photos,photos.length);assert.equal(report.albums,new Set(photos.map(p=>p.albumId)).size);assert.equal(report.originalBytes,total);assert.equal(report.complete,false);
+if(process.env.GITHUB_ACTIONS)assert(photos.every(p=>p.originalHosted==='github-release'),'Every online original must be uploaded before publication');
 for(const y of report.yearCoverage)assert.equal(y.photos,photos.filter(p=>p.year===y.year).length);
 const html=await fs.readFile('index.html','utf8');const js=await fs.readFile('app.js','utf8');
-assert(html.includes('id="copyPrompt"'));assert(html.includes('<dialog'));assert(js.includes("img.loading='lazy'"));assert(js.includes('img.src=p.original'));assert(!html.includes('assets/originals/'),'Originals must not be embedded in initial HTML');
+assert(html.includes('id="copyPrompt"'));assert(html.includes('<dialog'));assert(js.includes("img.loading='lazy'"));assert(js.includes('img.src=originalFile(p)'));assert(!html.includes('assets/originals/'),'Originals must not be embedded in initial HTML');
 console.log(JSON.stringify({status:'passed',photos:photos.length,albums:report.albums,originalsMB:Math.round(total/1e6),thumbnailsMB:Math.round(thumbs/1e6),listImageSavings:`${(100*(1-thumbs/total)).toFixed(1)}%`,coveredYears:report.yearCoverage.filter(y=>y.photos).map(y=>y.year)}));

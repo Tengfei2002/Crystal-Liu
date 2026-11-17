@@ -1,0 +1,150 @@
+{
+  "updatedAt": "2026-11-18",
+  "photos": 886,
+  "albums": 208,
+  "originalBytes": 4523482571,
+  "sourcePages": 215,
+  "failedImages": 1,
+  "excludedNonPortraitImages": 10,
+  "reviewedDuplicateMerges": 23,
+  "hostedOriginals": 886,
+  "watermarkReviewed": 8,
+  "complete": false,
+  "deduplication": "SHA-256文件内容精确去重，并经人工对照合并部分同一底图的压缩/署名版本；其余相似版本仍需持续复核。",
+  "scope": "官方账号、经纪公司、品牌、杂志、剧方及专业媒体公开照片；不含饭拍、视频截图或生成图。",
+  "yearCoverage": [
+    {
+      "year": 2002,
+      "photos": 1,
+      "status": "partial"
+    },
+    {
+      "year": 2003,
+      "photos": 1,
+      "status": "partial"
+    },
+    {
+      "year": 2004,
+      "photos": 2,
+      "status": "partial"
+    },
+    {
+      "year": 2005,
+      "photos": 1,
+      "status": "partial"
+    },
+    {
+      "year": 2006,
+      "photos": 8,
+      "status": "partial"
+    },
+    {
+      "year": 2007,
+      "photos": 7,
+      "status": "partial"
+    },
+    {
+      "year": 2008,
+      "photos": 4,
+      "status": "partial"
+    },
+    {
+      "year": 2009,
+      "photos": 4,
+      "status": "partial"
+    },
+    {
+      "year": 2010,
+      "photos": 12,
+      "status": "partial"
+    },
+    {
+      "year": 2011,
+      "photos": 4,
+      "status": "partial"
+    },
+    {
+      "year": 2012,
+      "photos": 6,
+      "status": "partial"
+    },
+    {
+      "year": 2013,
+      "photos": 12,
+      "status": "partial"
+    },
+    {
+      "year": 2014,
+      "photos": 4,
+      "status": "partial"
+    },
+    {
+      "year": 2015,
+      "photos": 5,
+      "status": "partial"
+    },
+    {
+      "year": 2016,
+      "photos": 2,
+      "status": "partial"
+    },
+    {
+      "year": 2017,
+      "photos": 28,
+      "status": "partial"
+    },
+    {
+      "year": 2018,
+      "photos": 8,
+      "status": "partial"
+    },
+    {
+      "year": 2019,
+      "photos": 4,
+      "status": "partial"
+    },
+    {
+      "year": 2020,
+      "photos": 8,
+      "status": "partial"
+    },
+    {
+      "year": 2021,
+      "photos": 6,
+      "status": "partial"
+    },
+    {
+      "year": 2022,
+      "photos": 7,
+      "status": "partial"
+    },
+    {
+      "year": 2023,
+      "photos": 14,
+      "status": "partial"
+    },
+    {
+      "year": 2024,
+      "photos": 132,
+      "status": "partial"
+    },
+    {
+      "year": 2025,
+      "photos": 357,
+      "status": "partial"
+    },
+    {
+      "year": 2026,
+      "photos": 249,
+      "status": "partial"
+    }
+  ],
+  "gaps": [
+    "各年份均为部分收录，仍需从原始发布渠道持续补齐",
+    "Instagram仅核验到少量公开原帖，预览版本不等于完整轮播或最高分辨率原图",
+    "毕业报道资料肖像不等于毕业典礼照，正式毕业照仍待可靠来源核实",
+    "未逐张人工检查的照片，水印状态保持待核验",
+    "网页原尺寸指来源可获取版本，不保证摄影师底片",
+    "不同文件格式、压缩和裁剪版本仍需继续进行人工相似图复核"
+  ]
+}

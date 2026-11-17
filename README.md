@@ -14,7 +14,7 @@
 
 原尺寸文件保存来源提供的最高可获取版本，不等于摄影师 RAW 底片，不放大图片冒充高清。保留所有署名和水印，watermark 默认 unknown；只有逐张人工核验后才能设为 none 或 present。“无水印”指照片无叠加水印，品牌广告画面中的原生文字不应擅自删除。
 
-以 SHA-256 对下载字节精确去重。同一图片的不同压缩、裁剪、调色版本仍需人工复核；近似图不能未经判断自动删除。所有图片版权归原权利人所有，不授予转载或商用许可。需要移除或更正，请通过 Issues 提供图片 ID 与对应来源。
+以 SHA-256 对下载字节精确去重。同一图片的不同压缩、裁剪、调色版本经相似图候选检测和人工对照后合并，记录在 data/duplicates.json；尚未复核的相似图不自动删除。所有图片版权归原权利人所有，不授予转载或商用许可。需要移除或更正，请通过 Issues 提供图片 ID 与对应来源。
 
 ## 本地运行与更新
 
@@ -25,10 +25,15 @@ npm install
 npm start
 ```
 
-浏览器打开 http://127.0.0.1:4173/ 。
+浏览器打开 http://127.0.0.1:4173/ 。本地原图齐全时，也可直接双击 index.html 离线浏览，无需启动服务。页面通过 data/archive.js 读取离线索引，不依赖 file:// 下受限的网页数据请求。
+
+当前工作目录已保存原文件。如果从 GitHub 新克隆仓库，原图位于 Releases，先运行 `node scripts/restore-originals.mjs` 下载并校验原图，再双击 HTML；下载量见 data/report.json 的 originalBytes。
 
 ```sh
 npm run collect
+node scripts/publish-originals.mjs
+node scripts/curate.mjs
+npm run prepare
 npm run check
 ```
 
@@ -51,7 +56,9 @@ npm run check
 
 `sourceKind` 取 official、agency、brand、magazine、drama、media、instagram。类别取 微博日常、Instagram、公开广告照、杂志写真、剧照、路演官方照、毕业照、媒体照、活动照。内容自动分类仅是初步建议，需编辑校正。
 
-图片存储于仓库，避免原图防盗链或第三方链接过期影响浏览。文件体积会随补录增长；大规模收藏应迁移原图到对象存储，并保持缩略图、来源清单和网站代码在仓库。不可把数十GB原图直接塞入普通 Git 仓库。
+缩略图、清单与网页代码在普通 Git 文件树中。原文件本地保留一份，并按年份存放于本仓库 Releases，避免微博防盗链及过期地址，也避免 GitHub Pages 发布包体积超限。网页点击后才加载 Releases 原文件，本地 HTML 则读取 originalLocal。上传脚本通过 Git 标准凭据管理器复用已有 GitHub 登录，凭据仅在内存使用，不写入仓库或日志。新克隆后没有原图的用户可运行恢复脚本。更大规模收藏应迁移原图到对象存储，避免将数十GB原图直接加入普通 Git 历史。
+
+`data/annotations.json` 保存逐张人工核验的水印结论；`data/exclusions.json` 保存经目视检查不含本人的物件、风景等图的排除记录。`curate.mjs` 会修正历史来源分类、保留最早已知发布日期、合并相同文件出处并应用这两份清单。自动提取只给出候选，不替代内容审核。运行 `node scripts/check.mjs --full` 会额外校验本地每张原图的内容哈希。
 
 ## 发布
 

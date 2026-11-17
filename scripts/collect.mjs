@@ -74,6 +74,7 @@ for (const s of historical) if (!byUrl.has(s.url)) byUrl.set(s.url,{...s, verifi
 const sources = [...byUrl.values()];
 await fs.writeFile('data/sources.json',JSON.stringify(sources,null,2));
 let photos = await readJSON('data/photos.json', []);
+const excludedIds=new Set((await readJSON('data/exclusions.json',[])).map(x=>x.id));
 const knownUrls = new Set(photos.flatMap(p=>[p.originalUrl,...(p.alternateUrls||[])]));
 const knownHashes = new Map(photos.map(p=>[p.sha256,p]));
 const all = sources.flatMap((s,si) => s.imageUrls.map((url,n)=>({s,url,n,si}))).filter(x=>!knownUrls.has(x.url));
@@ -88,6 +89,7 @@ await pool(all, 5, async ({s,url,n})=> {
     const info = await sharp(b).metadata();
     if (!info.width || Math.min(info.width,info.height)<160 || b.length>35*1024*1024) throw new Error('image dimensions or file size outside archive limits');
     const digest=hash(b);
+    if(excludedIds.has(digest.slice(0,20)))return;
     if(knownHashes.has(digest)) { const p=knownHashes.get(digest); p.alternateUrls=[...new Set([...(p.alternateUrls||[]),url])]; p.sourceUrls=[...new Set([...(p.sourceUrls||[p.sourceUrl]),s.url])]; return; }
     const id=digest.slice(0,20);
     const ext=({jpeg:'jpg',png:'png',webp:'webp',gif:'gif'})[info.format];
