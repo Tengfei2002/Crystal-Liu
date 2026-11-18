@@ -9,15 +9,18 @@ assert(photos.length>0,'No photos collected');
 assert.equal(new Set(photos.map(p=>p.id)).size,photos.length,'Duplicate image IDs');
 assert.equal(new Set(photos.map(p=>p.sha256)).size,photos.length,'Duplicate file hashes');
 const sourceUrls=new Set(JSON.parse(await fs.readFile('data/sources.json','utf8')).map(s=>s.url));
+const approvals=new Map(JSON.parse(await fs.readFile('data/face-review.json','utf8')).approved.map(p=>[p.id,p.sha256]));
+const exclusions=new Set(JSON.parse(await fs.readFile('data/exclusions.json','utf8')).map(p=>p.id));
 const categories=new Set(['微博日常','Instagram','公开广告照','杂志写真','剧照','路演官方照','毕业照','媒体照','活动照']);
 let thumbs=0,total=0;
 for(const p of photos){
+  assert(p.faceReviewed===true&&approvals.get(p.id)===p.sha256&&!exclusions.has(p.id),`Photo requires visual review ${p.id}`);
   assert(sourceUrls.has(p.sourceUrl),`Missing provenance ${p.id}`);
   assert(/^https:\/\//.test(p.sourceUrl),`Invalid source URL ${p.id}`);
   assert(categories.has(p.category),`Unknown category ${p.category}`);
   assert(['none','present','unknown'].includes(p.watermark),'Invalid watermark status');
   assert(p.date===null||/^\d{4}-\d{2}-\d{2}$/.test(p.date),'Invalid date format');
-  assert.equal(p.year,p.date?Number(p.date.slice(0,4)):null);
+  assert.equal(p.year,p.originalReleaseYear||(p.date?Number(p.date.slice(0,4)):p.publicationMonth?Number(p.publicationMonth.slice(0,4)):null));
   assert(p.width>0&&p.height>0&&p.bytes>0);
   assert((p.original.startsWith('assets/originals/')||p.original.startsWith('https://github.com/Tengfei2002/Crystal-Liu/releases/download/'))&&p.thumbnail.startsWith('assets/thumbs/'));
   if(process.argv.includes('--full')){const b=await fs.readFile(p.originalLocal||p.original);assert.equal(b.length,p.bytes);assert.equal(createHash('sha256').update(b).digest('hex'),p.sha256,`Original corrupted ${p.id}`);}

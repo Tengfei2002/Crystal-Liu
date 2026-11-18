@@ -70,27 +70,39 @@ if (!process.argv.includes('--assets-only')) {
   }
 }
 const historical = await readJSON('data/historical-sources.json', []);
-for (const s of historical) if (!byUrl.has(s.url)) byUrl.set(s.url,{...s, verifiedAt:dateNow});
+for (const file of (await fs.readdir('data')).filter(p=>/^additions-[\w-]+\.json$/.test(p)))historical.push(...await readJSON('data/'+file,[]));
+for (const s of historical) {
+  const previous=byUrl.get(s.url);
+  byUrl.set(s.url,{...previous,...s,imageUrls:[...new Set([...(previous?.imageUrls||[]),...(s.imageUrls||[])])],verifiedAt:dateNow});
+}
 const sources = [...byUrl.values()];
 await fs.writeFile('data/sources.json',JSON.stringify(sources,null,2));
-let photos = await readJSON('data/photos.json', []);
+let photos = [...new Map([...(await readJSON('data/pending-face-review.json', [])), ...(await readJSON('data/photos.json', []))].map(p=>[p.id,p])).values()];
 const excludedIds=new Set((await readJSON('data/exclusions.json',[])).map(x=>x.id));
 const knownUrls = new Set(photos.flatMap(p=>[p.originalUrl,...(p.alternateUrls||[])]));
 const knownHashes = new Map(photos.map(p=>[p.sha256,p]));
+const recentCache=new Map((await readJSON('.cache/recent-probes.json',[])).map(p=>[p.url,p.local]));
 const all = sources.flatMap((s,si) => s.imageUrls.map((url,n)=>({s,url,n,si}))).filter(x=>!knownUrls.has(x.url));
 const failures = [];
+const rejected = [];
 let count=0;
 console.log(`Downloading ${all.length} candidates; ${photos.length} existing photos`);
 await pool(all, 5, async ({s,url,n})=> {
   try {
     const candidate = url.replace(/^http:/,'https:').replace(/\/(?:thumbnail|middle|bmiddle|mw\d+|orj\d+)\//,'/large/');
     let b, actualUrl=candidate;
-    try { b=Buffer.from(await (await request(candidate,s.url)).arrayBuffer()); } catch { actualUrl=url.replace(/^http:/,'https:'); b=Buffer.from(await (await request(actualUrl,s.url)).arrayBuffer()); }
+    const cached=(!Array.isArray(s.imageDimensions)&&s.imageDimensions?.[url]?.reviewFile)||recentCache.get(url);
+    if(cached){try{b=await fs.readFile(cached)}catch{}}
+    if(!b){try { b=Buffer.from(await (await request(candidate,s.url)).arrayBuffer()); } catch { actualUrl=url.replace(/^http:/,'https:'); b=Buffer.from(await (await request(actualUrl,s.url)).arrayBuffer()); }}
     const info = await sharp(b).metadata();
     if (!info.width || Math.min(info.width,info.height)<160 || b.length>35*1024*1024) throw new Error('image dimensions or file size outside archive limits');
     const digest=hash(b);
     if(excludedIds.has(digest.slice(0,20)))return;
     if(knownHashes.has(digest)) { const p=knownHashes.get(digest); p.alternateUrls=[...new Set([...(p.alternateUrls||[]),url])]; p.sourceUrls=[...new Set([...(p.sourceUrls||[p.sourceUrl]),s.url])]; return; }
+    const materialYear=s.originalReleaseYear||(s.date?Number(s.date.slice(0,4)):null);
+    const early=materialYear&&materialYear<=2016;
+    const minLong=early?900:1600,minShort=early?450:720;
+    if(Math.max(info.width,info.height)<minLong||Math.min(info.width,info.height)<minShort){rejected.push({sourceUrl:s.url,imageUrl:actualUrl,width:info.width,height:info.height,reason:`below quality gate ${minLong}px long edge / ${minShort}px short edge`});return;}
     const id=digest.slice(0,20);
     const ext=({jpeg:'jpg',png:'png',webp:'webp',gif:'gif'})[info.format];
     if(!ext) throw new Error('unsupported image format');
@@ -101,12 +113,11 @@ await pool(all, 5, async ({s,url,n})=> {
     if(knownHashes.has(digest)) { const p=knownHashes.get(digest); p.alternateUrls=[...new Set([...(p.alternateUrls||[]),url])]; p.sourceUrls=[...new Set([...(p.sourceUrls||[p.sourceUrl]),s.url])]; return; }
     const p={id,albumId:hash(s.url).slice(0,16),title:s.title,date:s.date||null,year:s.date?Number(s.date.slice(0,4)):null,dateType:'published',category:s.category,sourceName:s.sourceName,sourceKind:s.sourceKind,sourceUrl:s.url,sourceUrls:[s.url],originalUrl:actualUrl,alternateUrls:[url],original,thumbnail:thumb,width:info.width,height:info.height,bytes:b.length,sha256:digest,watermark:'unknown',watermarkNote:'尚未逐张人工核验；不去除原有署名或水印',verifiedAt:dateNow,notes:s.notes||'',position:n+1};
     knownHashes.set(digest,p); photos.push(p);
-    if(++count%25===0) { console.log(`Saved ${photos.length} unique photos`); await fs.writeFile('data/photos.json',JSON.stringify(photos,null,2)); }
+    if(++count%25===0) { console.log(`Saved ${photos.length} unique photos`); await fs.writeFile('.cache/collected-photos.json',JSON.stringify(photos,null,2)); }
   } catch(e) { failures.push({sourceUrl:s.url,imageUrl:url,error:e.message}); }
 });
 photos.sort((a,b)=>(b.date||'').localeCompare(a.date||'')||a.albumId.localeCompare(b.albumId)||a.position-b.position);
-await fs.writeFile('data/photos.json',JSON.stringify(photos,null,2));
+await fs.writeFile('.cache/collected-photos.json',JSON.stringify(photos,null,2));
 await fs.writeFile('data/failures.json',JSON.stringify(failures,null,2));
-const report={updatedAt:dateNow,photos:photos.length,albums:new Set(photos.map(p=>p.albumId)).size,originalBytes:photos.reduce((a,p)=>a+p.bytes,0),sourcePages:sources.length,failedImages:failures.length,complete:false,deduplication:'SHA-256 文件内容精确去重；不同压缩、裁剪及调色版本仍可能重复，需人工复核。',scope:'官方账号、经纪公司、品牌、杂志、剧方及专业媒体公开图；不收饭拍或视频截图。',yearCoverage:Array.from({length:25},(_,i)=>({year:2002+i,photos:photos.filter(p=>p.year===2002+i).length,status:photos.some(p=>p.year===2002+i)?'partial':'missing'})),gaps:['历史年份待逐年补录；任何年份均不代表已收齐','Instagram 历史与新发布内容待从公开原帖逐条核验','毕业照需找到可靠原始发布页后再纳入','无水印属性需逐张人工检查，未知项不标为无水印','网页原图是来源提供的最大可获取文件，不保证摄影师底片']};
-await fs.writeFile('data/report.json',JSON.stringify(report,null,2));
-console.log(JSON.stringify(report));
+await fs.writeFile('data/quality-rejections.json',JSON.stringify(rejected,null,2));
+console.log(JSON.stringify({candidates:photos.length,newFiles:count,failures:failures.length,qualityRejected:rejected.length,output:'.cache/collected-photos.json',next:'Visually review every new candidate, record approved IDs and hashes in data/face-review.json, then run scripts/curate.mjs. Public gallery has not been changed.'}));

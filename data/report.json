@@ -1,14 +1,14 @@
 {
   "updatedAt": "2026-11-18",
-  "photos": 886,
-  "albums": 208,
-  "originalBytes": 4523482571,
-  "sourcePages": 215,
+  "photos": 952,
+  "albums": 230,
+  "originalBytes": 4466205312,
+  "sourcePages": 252,
   "failedImages": 1,
-  "excludedNonPortraitImages": 10,
-  "reviewedDuplicateMerges": 23,
-  "hostedOriginals": 886,
-  "watermarkReviewed": 8,
+  "excludedNonPortraitImages": 112,
+  "reviewedDuplicateMerges": 60,
+  "hostedOriginals": 952,
+  "watermarkReviewed": 6,
   "complete": false,
   "deduplication": "SHA-256文件内容精确去重，并经人工对照合并部分同一底图的压缩/署名版本；其余相似版本仍需持续复核。",
   "scope": "官方账号、经纪公司、品牌、杂志、剧方及专业媒体公开照片；不含饭拍、视频截图或生成图。",
@@ -55,17 +55,17 @@
     },
     {
       "year": 2010,
-      "photos": 12,
+      "photos": 29,
       "status": "partial"
     },
     {
       "year": 2011,
-      "photos": 4,
+      "photos": 13,
       "status": "partial"
     },
     {
       "year": 2012,
-      "photos": 6,
+      "photos": 11,
       "status": "partial"
     },
     {
@@ -75,67 +75,67 @@
     },
     {
       "year": 2014,
-      "photos": 4,
+      "photos": 21,
       "status": "partial"
     },
     {
       "year": 2015,
-      "photos": 5,
+      "photos": 10,
       "status": "partial"
     },
     {
       "year": 2016,
-      "photos": 2,
+      "photos": 10,
       "status": "partial"
     },
     {
       "year": 2017,
-      "photos": 28,
+      "photos": 18,
       "status": "partial"
     },
     {
       "year": 2018,
-      "photos": 8,
+      "photos": 3,
       "status": "partial"
     },
     {
       "year": 2019,
-      "photos": 4,
+      "photos": 9,
       "status": "partial"
     },
     {
       "year": 2020,
-      "photos": 8,
+      "photos": 12,
       "status": "partial"
     },
     {
       "year": 2021,
-      "photos": 6,
-      "status": "partial"
-    },
-    {
-      "year": 2022,
-      "photos": 7,
-      "status": "partial"
-    },
-    {
-      "year": 2023,
       "photos": 14,
       "status": "partial"
     },
     {
+      "year": 2022,
+      "photos": 6,
+      "status": "partial"
+    },
+    {
+      "year": 2023,
+      "photos": 9,
+      "status": "partial"
+    },
+    {
       "year": 2024,
-      "photos": 132,
+      "photos": 147,
       "status": "partial"
     },
     {
       "year": 2025,
-      "photos": 357,
+      "photos": 330,
       "status": "partial"
     },
     {
       "year": 2026,
-      "photos": 249,
+      "photos": 270,
       "status": "partial"
     }
   ],
@@ -146,5 +146,14 @@
     "未逐张人工检查的照片，水印状态保持待核验",
     "网页原尺寸指来源可获取版本，不保证摄影师底片",
     "不同文件格式、压缩和裁剪版本仍需继续进行人工相似图复核"
-  ]
+  ],
+  "faceReview": {
+    "reviewedCandidates": 1035,
+    "removedThisReview": 83,
+    "approved": 952,
+    "pending": 0,
+    "reviewedAt": "2026-11-18",
+    "criteria": "核对来源与画面，须包含可辨认的本人面部；正常侧脸和清晰全身照可收录；不收纯背影、遮脸、纯物件、其他人物单人照、动画、明显模糊图或无法辨认面部的远景。新候选必须逐张目视审核，不能凭文章标题批准整组。"
+  },
+  "coverPhotoId": "a8facf8d5e107a6cef5d"
 }

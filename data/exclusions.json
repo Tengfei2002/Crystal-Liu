@@ -48,5 +48,674 @@
     "id": "ed466daaa41703c9a9d4",
     "reason": "目视检查：不含刘亦菲本人的风景、食物、物件、奖状或其他演员海报",
     "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "ff9adeb7b6ccd27b989d",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx4.sinaimg.cn/large/001VvpGXly1ij506hl6m4j61qi8rru1202.jpg",
+      "https://wx4.sinaimg.cn/large/001VvpGXly1ij506hl6m4j61qi8rru1202.jpg"
+    ]
+  },
+  {
+    "id": "accc20ae1661e400385f",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx4.sinaimg.cn/large/693ad074gy1ij4h1o75nvj210o1wm7id.jpg",
+      "https://wx4.sinaimg.cn/large/693ad074gy1ij4h1o75nvj210o1wm7id.jpg"
+    ]
+  },
+  {
+    "id": "4a5e770d395914bea12f",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx2.sinaimg.cn/large/693ad074gy1ij4h1p2dwhj210o1w0qdu.jpg",
+      "https://wx2.sinaimg.cn/large/693ad074gy1ij4h1p2dwhj210o1w0qdu.jpg"
+    ]
+  },
+  {
+    "id": "2b61e54f2c9b74da3f8e",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx2.sinaimg.cn/large/693ad074gy1ij4h1r84pvj210o1w8aqc.jpg",
+      "https://wx2.sinaimg.cn/large/693ad074gy1ij4h1r84pvj210o1w8aqc.jpg"
+    ]
+  },
+  {
+    "id": "9b56186d6dc578da8864",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx2.sinaimg.cn/large/693ad074gy1ij4h1t4zf8j210o1wjwv8.jpg",
+      "https://wx2.sinaimg.cn/large/693ad074gy1ij4h1t4zf8j210o1wjwv8.jpg"
+    ]
+  },
+  {
+    "id": "ef0633c89de01150443f",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx1.sinaimg.cn/large/693ad074gy1iivgexexayj210o1hk131.jpg",
+      "https://wx1.sinaimg.cn/large/693ad074gy1iivgexexayj210o1hk131.jpg"
+    ]
+  },
+  {
+    "id": "1634a8b0e98849ae030d",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx1.sinaimg.cn/large/693ad074gy1iivgf52k1qj210o1hodnr.jpg",
+      "https://wx1.sinaimg.cn/large/693ad074gy1iivgf52k1qj210o1hodnr.jpg"
+    ]
+  },
+  {
+    "id": "3a2d318de77da4205a69",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx1.sinaimg.cn/large/693ad074gy1iivgfasri9j210o1hvahb.jpg",
+      "https://wx1.sinaimg.cn/large/693ad074gy1iivgfasri9j210o1hvahb.jpg"
+    ]
+  },
+  {
+    "id": "cb4f3a3f9c6db177269e",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx4.sinaimg.cn/large/693ad074gy1iivgfh0do4j210o1hxtjx.jpg",
+      "https://wx4.sinaimg.cn/large/693ad074gy1iivgfh0do4j210o1hxtjx.jpg"
+    ]
+  },
+  {
+    "id": "48244301297e0b84449e",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx2.sinaimg.cn/large/693ad074gy1iisu38hvexj210o1u5k0u.jpg",
+      "https://wx2.sinaimg.cn/large/693ad074gy1iisu38hvexj210o1u5k0u.jpg"
+    ]
+  },
+  {
+    "id": "de92b20257264d35441d",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx3.sinaimg.cn/large/693ad074gy1iisu391t78j210o1twqax.jpg",
+      "https://wx3.sinaimg.cn/large/693ad074gy1iisu391t78j210o1twqax.jpg"
+    ]
+  },
+  {
+    "id": "9451a0799373bfe1812d",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx2.sinaimg.cn/large/693ad074gy1iisu39kh0uj210o1tv46w.jpg",
+      "https://wx2.sinaimg.cn/large/693ad074gy1iisu39kh0uj210o1tv46w.jpg"
+    ]
+  },
+  {
+    "id": "d1a0561f6df1e0d72543",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx1.sinaimg.cn/large/693ad074gy1iisu1r2rddj210o1tyn69.jpg",
+      "https://wx1.sinaimg.cn/large/693ad074gy1iisu1r2rddj210o1tyn69.jpg"
+    ]
+  },
+  {
+    "id": "64849c7b9a515595b5c9",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx1.sinaimg.cn/large/693ad074gy1iisu37yljmj210n1u0tj9.jpg",
+      "https://wx1.sinaimg.cn/large/693ad074gy1iisu37yljmj210n1u0tj9.jpg"
+    ]
+  },
+  {
+    "id": "ff08474c77f3ab7cd795",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx1.sinaimg.cn/large/693ad074gy1igwmpebbybj210o1lv7c9.jpg",
+      "https://wx1.sinaimg.cn/large/693ad074gy1igwmpebbybj210o1lv7c9.jpg"
+    ]
+  },
+  {
+    "id": "6f717200e3887fb5006d",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx1.sinaimg.cn/large/693ad074gy1igwmpeutg6j210o1lsqay.jpg",
+      "https://wx1.sinaimg.cn/large/693ad074gy1igwmpeutg6j210o1lsqay.jpg"
+    ]
+  },
+  {
+    "id": "99624f514c9d70cd7bbc",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx3.sinaimg.cn/large/693ad074gy1igwmpfc4e2j210o1lvguf.jpg",
+      "https://wx3.sinaimg.cn/large/693ad074gy1igwmpfc4e2j210o1lvguf.jpg"
+    ]
+  },
+  {
+    "id": "9c031f70815a3690629b",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx2.sinaimg.cn/large/693ad074gy1igwmpgc0pvj210o1mhwlq.jpg",
+      "https://wx2.sinaimg.cn/large/693ad074gy1igwmpgc0pvj210o1mhwlq.jpg"
+    ]
+  },
+  {
+    "id": "a9a132a352d4d043a6f0",
+    "reason": "本轮目视审核：带Instagram界面的截图、投票长拼图或非原始图片，排除",
+    "reviewedAt": "2026-11-18",
+    "imageUrls": [
+      "https://wx4.sinaimg.cn/large/693ad074gy1igwmpgtp9pj210o1mdn5d.jpg",
+      "https://wx4.sinaimg.cn/large/693ad074gy1igwmpgtp9pj210o1mdn5d.jpg"
+    ]
+  },
+  {
+    "id": "2c366d9e8f88104c120b",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5328930217398097.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "ebeb3cce4f0251a3091e",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5328930217398097.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "e2f22c4c0b920ac4d6bf",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5326406017879091.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "760ca0e184ae9c8a1101",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5326406017879091.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "ea5735ef4577fde3da9d",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5326406017879091.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "85fb1ef3fa4f89975bd9",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5302914379677933.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "2ce9f9e0d7f40a45181f",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5299720301840795.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "fac0aa6f91929ce0d27e",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5279937791789639.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "5e3ff4f62624c0bce682",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5279937791789639.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "b42ae3f4493449e58853",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5245569813714383.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "50c9525b22298609ecea",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5242333731752463.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "4bc03e3e4eafca660ead",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5242333731752463.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "82a33726c29996dde912",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5242333731752463.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "1f076972233cd1d76b21",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5242028230706623.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "2963abf36e7f74547d99",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5242028230706623.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "d7304e3d91567ef29631",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5242028230706623.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "37dcdae109f8e9e786c8",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5217247304877297.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "08862ad1b1a66b236d63",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5207541720026924.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "b2d333f34d7b24f213e2",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5203678556587759.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "a83dd6363113b7e56c27",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5201050799703630.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "c0bf715333f19b755005",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5201050799703630.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "b53718aa5e4cbe57baac",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5172049945299639.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "47708d1ea0916133e881",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5171010552466380.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "2f0dd221076f3b56ca13",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5168769846219358.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "542929ea9b84eca2205b",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5159380282775318.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "bf940e751758f42f3f45",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5094858650029395.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "e24d28cd448788063cae",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5094858650029395.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "68b114e9ddc391c3eddc",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5094858650029395.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "2b66758606bac08be094",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5084094719595320.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "81720ef55f38015d83a3",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5084094719595320.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "a02834264a649f6b1eca",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5042347844569828.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "9783d0fab4e4ad4deca7",
+    "reason": "目视复核：背向镜头、面部被遮挡或过暗，缺少足够清晰的面部信息",
+    "sourceUrl": "https://www.sina.cn/news/detail/5042347844569828.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "850541135a35f877271b",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.sina.cn/news/detail/5242028230706623.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "c146f44a99069014ff79",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.sina.cn/news/detail/5242028230706623.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "f95e9e7279168de1e3a5",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.sina.cn/news/detail/5242028230706623.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "d8cea670f2d9f5ffebeb",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.sina.cn/news/detail/5242028230706623.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "3391823042ebd421c618",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.sina.cn/news/detail/5203678556587759.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "e88cb2151a23b4971c18",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.sina.cn/news/detail/5172049945299639.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "a3d1634e49d94c0de98e",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.sina.cn/news/detail/5120603805713147.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "699a6aa5a29cf56ac35f",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.chinadaily.com.cn/a/202312/04/WS656d1947a31090682a5f1384_4.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "9bd942452ad11f1afc37",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.chinadaily.com.cn/a/202312/04/WS656d1947a31090682a5f1384_5.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "dc3b8f0c3c0e560a56f9",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.chinadaily.com.cn/a/202312/04/WS656d1947a31090682a5f1384_1.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "79619e2b318f26127085",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.chinadaily.com.cn/a/202312/04/WS656d1947a31090682a5f1384_6.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "35050d1753c08c13c796",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://global.chinadaily.com.cn/a/202302/23/WS63f718c2a31057c47ebb07db_4.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "08dd04a1bc2f82966405",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://global.chinadaily.com.cn/a/202302/23/WS63f718c2a31057c47ebb07db_1.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "f624d3f12e25ef629d55",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://global.chinadaily.com.cn/a/202302/23/WS63f718c2a31057c47ebb07db_3.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "3529140192ac9cffe911",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://global.chinadaily.com.cn/a/202302/07/WS63e19932a31057c47ebad441_3.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "2d609afaf1f903fac7e4",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://global.chinadaily.com.cn/a/202003/10/WS5e6756a2a31012821727de83_5.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "2e95de0982172632be92",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://global.chinadaily.com.cn/a/201808/14/WS5b723c4ea310add14f3859ea.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "70d9b8cba030d2826ca4",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://global.chinadaily.com.cn/a/201808/14/WS5b723c4ea310add14f3859ea.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "49b367d6ed6005eb6f0b",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://global.chinadaily.com.cn/a/201808/14/WS5b723c4ea310add14f3859ea.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "95b719a3dc49cc0233fa",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://global.chinadaily.com.cn/a/201808/14/WS5b723c4ea310add14f3859ea.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "6614738242ed9bf8fd08",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.chinadaily.com.cn/a/201708/30/WS59bb71f2a310d4d9ab7e7e23.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "3a09649043c7f7f4b6a0",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.chinadaily.com.cn/a/201708/30/WS59bb71f2a310d4d9ab7e7e23.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "5b9c661c81c82d7d267e",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.chinadaily.com.cn/a/201708/30/WS59bb71f2a310d4d9ab7e7e23.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "373a97c2e944c4e691d0",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.chinadaily.com.cn/a/201708/30/WS59bb71f2a310d4d9ab7e7e23.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "c802f9a8ff28a9fd6c21",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.chinadaily.com.cn/a/201708/30/WS59bb71f2a310d4d9ab7e7e23.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "e59c2b7c2083998c90e1",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.chinadaily.com.cn/a/201708/30/WS59bb71f2a310d4d9ab7e7e23.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "2a7646b8edd081524d82",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.chinadaily.com.cn/a/201708/30/WS59bb71f2a310d4d9ab7e7e23.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "0bda90c1e25b8e9fdcae",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.chinadaily.com.cn/a/201708/30/WS59bb71f2a310d4d9ab7e7e23.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "0727572376bd4f7ffe55",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.chinadaily.com.cn/a/201708/30/WS59bb71f2a310d4d9ab7e7e23.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "5dc6c291c9704448e537",
+    "reason": "目视复核：物件、文字、动画或其他人物配图，不是刘亦菲本人照片",
+    "sourceUrl": "https://www.chinadaily.com.cn/a/201708/30/WS59bb71f2a310d4d9ab7e7e23.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "866e73bc194e5be3d8b8",
+    "reason": "目视复核：场景或群像占比过大，人物面部太小，移出人物照片展示",
+    "sourceUrl": "https://www.sina.cn/news/detail/5225059519042520.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "9052167df9bc51edf005",
+    "reason": "目视复核：场景或群像占比过大，人物面部太小，移出人物照片展示",
+    "sourceUrl": "https://www.sina.cn/news/detail/5225059519042520.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "bd8e2a8ebd56616ea4fa",
+    "reason": "目视复核：场景或群像占比过大，人物面部太小，移出人物照片展示",
+    "sourceUrl": "https://www.sina.cn/news/detail/5203653786863889.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "2b2a64777343c0363839",
+    "reason": "目视复核：场景或群像占比过大，人物面部太小，移出人物照片展示",
+    "sourceUrl": "https://www.sina.cn/news/detail/5179691200941349.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "2d8c8d5fd5e097c10db0",
+    "reason": "目视复核：场景或群像占比过大，人物面部太小，移出人物照片展示",
+    "sourceUrl": "https://www.sina.cn/news/detail/5173119238537400.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "a51238cb1de19716eccd",
+    "reason": "目视复核：场景或群像占比过大，人物面部太小，移出人物照片展示",
+    "sourceUrl": "https://www.sina.cn/news/detail/5173119238537400.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "0542d9fae8236784eaf0",
+    "reason": "目视复核：场景或群像占比过大，人物面部太小，移出人物照片展示",
+    "sourceUrl": "https://www.sina.cn/news/detail/5173119238537400.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "f8902111d07aa6770999",
+    "reason": "目视复核：场景或群像占比过大，人物面部太小，移出人物照片展示",
+    "sourceUrl": "https://www.sina.cn/news/detail/5036281228690104.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "f8a8b6da1f4ed87c0554",
+    "reason": "目视复核：场景或群像占比过大，人物面部太小，移出人物照片展示",
+    "sourceUrl": "https://global.chinadaily.com.cn/a/202302/23/WS63f718c2a31057c47ebb07db_2.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "103cc435fe90d485b281",
+    "reason": "目视复核：场景或群像占比过大，人物面部太小，移出人物照片展示",
+    "sourceUrl": "https://www.chinadaily.com.cn/a/202206/30/WS62bd5503a310fd2b29e6991e.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "17dbb724c351aff3588a",
+    "reason": "目视复核：场景或群像占比过大，人物面部太小，移出人物照片展示",
+    "sourceUrl": "https://ent.sina.com.cn/m/c/2014-11-08/22194237594.shtml",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "bc7e89d716d84351f510",
+    "reason": "目视复核：照片翻拍、模糊或噪点明显，未达到本图库展示质量",
+    "sourceUrl": "https://www.sina.cn/news/detail/5203678556587759.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "945939390e7602fdbf89",
+    "reason": "目视复核：照片翻拍、模糊或噪点明显，未达到本图库展示质量",
+    "sourceUrl": "https://www.sina.cn/news/detail/5203678556587759.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "0f301588663d186250b3",
+    "reason": "目视复核：照片翻拍、模糊或噪点明显，未达到本图库展示质量",
+    "sourceUrl": "https://www.sina.cn/news/detail/5203678556587759.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "2a100805c389457fc1dc",
+    "reason": "目视复核：照片翻拍、模糊或噪点明显，未达到本图库展示质量",
+    "sourceUrl": "https://slide.ent.sina.com.cn/star/w/slide_4_86512_312694.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "dc48485de0e4d8a65f70",
+    "reason": "目视复核：照片翻拍、模糊或噪点明显，未达到本图库展示质量",
+    "sourceUrl": "https://slide.ent.sina.com.cn/star/w/slide_4_86512_312694.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "d6af443c309140e4480b",
+    "reason": "目视复核：照片翻拍、模糊或噪点明显，未达到本图库展示质量",
+    "sourceUrl": "https://www.instagram.com/p/Bm82K7agiAu/",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "d1b2c56c6e40e4499ef4",
+    "reason": "目视复核：面部主要部分被衣领、衣物或头发遮挡，移出展示",
+    "sourceUrl": "https://www.sina.cn/news/detail/5365947952271280.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "60649ff7d3501c1a7a61",
+    "reason": "目视复核：面部主要部分被衣领、衣物或头发遮挡，移出展示",
+    "sourceUrl": "https://www.sina.cn/news/detail/5365947952271280.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "458c3dae2c93ee68098c",
+    "reason": "目视复核：面部主要部分被衣领、衣物或头发遮挡，移出展示",
+    "sourceUrl": "https://www.sina.cn/news/detail/5335793657971506.html",
+    "reviewedAt": "2026-11-18"
+  },
+  {
+    "id": "8860bbbbd606266ed055",
+    "reason": "目视复核：面部主要部分被衣领、衣物或头发遮挡，移出展示",
+    "sourceUrl": "https://www.sina.cn/news/detail/5324233315979214.html",
+    "reviewedAt": "2026-11-18"
   }
 ]

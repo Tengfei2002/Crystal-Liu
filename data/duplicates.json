@@ -297,5 +297,523 @@
     "alternateUrls": [
       "http://wx2.sinaimg.cn/middle/003yHo7Ngy1hzz6mltubfj64h35ysx6u02.jpg"
     ]
+  },
+  {
+    "keep": "f72c64490d424ffa11de",
+    "remove": "a22fba2bad7b3da1f96e",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5364785426469347.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5364799086790513.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5364799086790513.html"
+    ],
+    "alternateUrls": [
+      "https://wx1.sinaimg.cn/large/693ad074gy1ij0j8bhc4oj24p634sb2d.jpg"
+    ]
+  },
+  {
+    "keep": "dcc8feed4490f1a5b908",
+    "remove": "29644fa13ca84d7096f7",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5364785426469347.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5364799086790513.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5364799086790513.html"
+    ],
+    "alternateUrls": [
+      "https://wx2.sinaimg.cn/large/693ad074gy1ij0j8rsq83j234s4tlhdy.jpg"
+    ]
+  },
+  {
+    "keep": "2ddae03a8e0f2c0608ef",
+    "remove": "2cb56032770d1edbe474",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5364785426469347.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5364799086790513.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5364799086790513.html"
+    ],
+    "alternateUrls": [
+      "https://wx4.sinaimg.cn/large/693ad074gy1ij0j8dwheqj22io1w0kjl.jpg"
+    ]
+  },
+  {
+    "keep": "5dbe6f152f22d37f3d34",
+    "remove": "de3e04d0c7052994c44d",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5364785426469347.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5364799086790513.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5364799086790513.html"
+    ],
+    "alternateUrls": [
+      "https://wx2.sinaimg.cn/large/693ad074gy1ij0j99o3e3j21w02iox6q.jpg"
+    ]
+  },
+  {
+    "keep": "5e385f2048b93bd6fe43",
+    "remove": "86f41ad0ba7fc33be83f",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5364785426469347.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5364799086790513.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5364799086790513.html"
+    ],
+    "alternateUrls": [
+      "https://wx1.sinaimg.cn/large/693ad074gy1ij0j952v2rj234s4p6b2e.jpg"
+    ]
+  },
+  {
+    "keep": "3e6a1c284ce4c8e3fb25",
+    "remove": "ee5cd08e019c099f50b6",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5364785426469347.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5364799086790513.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5364799086790513.html"
+    ],
+    "alternateUrls": [
+      "https://wx2.sinaimg.cn/large/693ad074gy1ij0j8ypi1pj234s4p6u11.jpg"
+    ]
+  },
+  {
+    "keep": "ed8e0d47d784dae39e2b",
+    "remove": "b133deef65d186bdba18",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5357272559520109.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5357272559520109.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5357272559520109.html"
+    ],
+    "alternateUrls": [
+      "https://wx1.sinaimg.cn/large/7c9b13fely1iiciwyp58yj22lb3pee84.jpg"
+    ]
+  },
+  {
+    "keep": "6d34015f23e14e0946bb",
+    "remove": "c8706cd24eebac72a952",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5335793657971506.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5335797012108339.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5335797012108339.html"
+    ],
+    "alternateUrls": [
+      "https://wx2.sinaimg.cn/large/7c9b13fely1igfxwlc2w5j21jk20px6p.jpg"
+    ]
+  },
+  {
+    "keep": "e61496f2c0765ff9c1c7",
+    "remove": "b66c3424af879406c5d2",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5335793657971506.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5335797012108339.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5335797012108339.html"
+    ],
+    "alternateUrls": [
+      "https://wx1.sinaimg.cn/large/7c9b13fely1igfxwl9k48j21jk222qv5.jpg"
+    ]
+  },
+  {
+    "keep": "86611a2973b3125c3b28",
+    "remove": "bdaa1bb08d3797660adf",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5335793657971506.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5335797012108339.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5335797012108339.html"
+    ],
+    "alternateUrls": [
+      "https://wx4.sinaimg.cn/large/7c9b13fely1igfxwlfpv1j21jk222e82.jpg"
+    ]
+  },
+  {
+    "keep": "4ffbcfbe1567ad70ca39",
+    "remove": "6e41de556fbacb9e8a10",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5280276500449076.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/",
+    "sourceUrls": [
+      "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/"
+    ],
+    "alternateUrls": [
+      "https://hips.hearstchina.com/hmg-prod/images/44f4d569-c5f4-4aeb-8e8b-b1e1e0f75b6c.jpg"
+    ]
+  },
+  {
+    "keep": "e8b7c905324b9c4d477c",
+    "remove": "7848e39496020be6857b",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5279814181192776.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/",
+    "sourceUrls": [
+      "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/"
+    ],
+    "alternateUrls": [
+      "https://hips.hearstchina.com/hmg-prod/images/4790f3af-3dc8-4642-80ac-b05f9c5b2f26.jpg"
+    ]
+  },
+  {
+    "keep": "7a36e2d932717ba928d6",
+    "remove": "8ff5cf422019d96a6131",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5271960524163545.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/",
+    "sourceUrls": [
+      "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/"
+    ],
+    "alternateUrls": [
+      "https://hips.hearstchina.com/hmg-prod/images/f5528f78-c465-462c-a408-8ebef1672ef3.jpg"
+    ]
+  },
+  {
+    "keep": "252fc7c45029e2aa8745",
+    "remove": "837be3636e2db90d201c",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5259639337260537.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/",
+    "sourceUrls": [
+      "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/"
+    ],
+    "alternateUrls": [
+      "https://hips.hearstchina.com/hmg-prod/images/16abf78b-a1b4-49ad-9983-696171fd3a02.jpg"
+    ]
+  },
+  {
+    "keep": "76a5085c4b321f19bea6",
+    "remove": "3e08bc1043e7794e4694",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5241703095341272.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/",
+    "sourceUrls": [
+      "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/"
+    ],
+    "alternateUrls": [
+      "https://hips.hearstchina.com/hmg-prod/images/286400ee-854a-4c1c-b403-f9f8ede0f804.jpg"
+    ]
+  },
+  {
+    "keep": "ceb928e5d8811025f514",
+    "remove": "c2bc05719ac3490e73ed",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5214824147715919.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/",
+    "sourceUrls": [
+      "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/"
+    ],
+    "alternateUrls": [
+      "https://hips.hearstchina.com/hmg-prod/images/eebe51b1-3af3-4ed9-834f-ada91304a5aa.jpg"
+    ]
+  },
+  {
+    "keep": "73c0154269feb1b52b82",
+    "remove": "fdc4801ed499237c77c3",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5203653786863889.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/",
+    "sourceUrls": [
+      "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/"
+    ],
+    "alternateUrls": [
+      "https://hips.hearstchina.com/hmg-prod/images/ccab1f2c-f4e0-4425-b389-de3ef7a53f73.jpg"
+    ]
+  },
+  {
+    "keep": "a0db4e20c0b0c724101f",
+    "remove": "522f1c797bf91214845d",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5203653786863889.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/",
+    "sourceUrls": [
+      "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/"
+    ],
+    "alternateUrls": [
+      "https://hips.hearstchina.com/hmg-prod/images/d6ddbf39-3a39-47d2-822b-d26f4447fd5f.jpg"
+    ]
+  },
+  {
+    "keep": "ce419a01643b3d751894",
+    "remove": "39e1c93cf32a25b7f647",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5201050799703630.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/",
+    "sourceUrls": [
+      "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/"
+    ],
+    "alternateUrls": [
+      "https://hips.hearstchina.com/hmg-prod/images/cfa71c02-a13e-4a4c-ae39-33cde5994c23.jpg"
+    ]
+  },
+  {
+    "keep": "6273ab066b020d20b349",
+    "remove": "b413875e7c591a01f255",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5177841207217197.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/",
+    "sourceUrls": [
+      "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/"
+    ],
+    "alternateUrls": [
+      "https://hips.hearstchina.com/hmg-prod/images/cf8e529e-832d-4d0a-ae2e-22c0a1ae3581.jpg"
+    ]
+  },
+  {
+    "keep": "1b49ecb49aa34caf5ae7",
+    "remove": "03085c86fb71bb3ce04a",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5177841207217197.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/",
+    "sourceUrls": [
+      "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/"
+    ],
+    "alternateUrls": [
+      "https://hips.hearstchina.com/hmg-prod/images/b5394550-fb52-46db-b48c-277d7a7acda2.jpg"
+    ]
+  },
+  {
+    "keep": "c106a0bc5a3b7c8ffeb6",
+    "remove": "e7b7ceb98ae8191fa0aa",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5173119238537400.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/",
+    "sourceUrls": [
+      "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/"
+    ],
+    "alternateUrls": [
+      "https://hips.hearstchina.com/hmg-prod/images/3a39d964-ca2b-4c85-b723-a2017824fcc2.jpg"
+    ]
+  },
+  {
+    "keep": "8e3cf8b8dbf3623807c4",
+    "remove": "ec2ad8ccd584f0ce9888",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5167940182740092.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/",
+    "sourceUrls": [
+      "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/"
+    ],
+    "alternateUrls": [
+      "https://hips.hearstchina.com/hmg-prod/images/75387be0-62b4-4969-a2b8-e27c520ec937.jpg"
+    ]
+  },
+  {
+    "keep": "e61377d535a604e654e1",
+    "remove": "cd7e35eeed1310b19b30",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5159380282775318.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/",
+    "sourceUrls": [
+      "https://www.ellechina.com/fashion/shopping/a71457593/liu-yifei-is-leading-a-new-aesthetic-in-commercial-shooting/"
+    ],
+    "alternateUrls": [
+      "https://hips.hearstchina.com/hmg-prod/images/856382b9-e247-4efb-bce0-2c62d899ca7e.jpg"
+    ]
+  },
+  {
+    "keep": "b0906106008b0d57c95f",
+    "remove": "10bb514f8d44c9832438",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5090518847720367.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5305077059293090.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5305077059293090.html"
+    ],
+    "alternateUrls": [
+      "https://wx1.sinaimg.cn/large/007X1YYdgy1idq0hm3r2qj33642dl7wi.jpg"
+    ]
+  },
+  {
+    "keep": "aa7d2c81d1f50dff99a7",
+    "remove": "92bf71ba03e90a62bb89",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5090518847720367.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5305077059293090.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5305077059293090.html"
+    ],
+    "alternateUrls": [
+      "https://wx1.sinaimg.cn/large/007X1YYdgy1idq0hnj0s2j35k87eykjq.jpg"
+    ]
+  },
+  {
+    "keep": "54b2342267f4fd2a0797",
+    "remove": "f830af1ea482550fdb83",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5090518847720367.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5305077059293090.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5305077059293090.html"
+    ],
+    "alternateUrls": [
+      "https://wx2.sinaimg.cn/large/007X1YYdgy1idq0hmoif8j34o868au12.jpg"
+    ]
+  },
+  {
+    "keep": "22d922c745d45b2a575b",
+    "remove": "398b8641084a15b84d7a",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5090518847720367.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5305077059293090.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5305077059293090.html"
+    ],
+    "alternateUrls": [
+      "https://wx2.sinaimg.cn/large/007X1YYdgy1idq0hnmeucj34qg6b9hdx.jpg"
+    ]
+  },
+  {
+    "keep": "c4c2a6f982e05fd71e57",
+    "remove": "fdf913aba00a74cd44ce",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5090518847720367.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5305077059293090.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5305077059293090.html"
+    ],
+    "alternateUrls": [
+      "https://wx3.sinaimg.cn/large/007X1YYdgy1idq0hm2f59j32k13epe83.jpg"
+    ]
+  },
+  {
+    "keep": "d4156b02c06ab60db67d",
+    "remove": "001c4eac22a0b5b29355",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5090518847720367.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5305077059293090.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5305077059293090.html"
+    ],
+    "alternateUrls": [
+      "https://wx2.sinaimg.cn/large/007X1YYdgy1idq0hmqv83j34hg5z9hdy.jpg"
+    ]
+  },
+  {
+    "keep": "568a9d9b3e48352ec6ec",
+    "remove": "3a35e12ad409ae964cbf",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5090518847720367.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5305077059293090.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5305077059293090.html"
+    ],
+    "alternateUrls": [
+      "https://wx2.sinaimg.cn/large/007X1YYdgy1idq0hoekzcj37035934qu.jpg"
+    ]
+  },
+  {
+    "keep": "35e92a60a8a74617ef9e",
+    "remove": "9d2b796feb8fcfe634fc",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5090518847720367.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://www.sina.cn/news/detail/5305077059293090.html",
+    "sourceUrls": [
+      "https://www.sina.cn/news/detail/5305077059293090.html"
+    ],
+    "alternateUrls": [
+      "https://wx4.sinaimg.cn/large/007X1YYdgy1idq0hoik0kj35gk7a2npk.jpg"
+    ]
+  },
+  {
+    "keep": "a28730df74516190bcda",
+    "remove": "8f53d966ee1cf5036dd1",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5071215137392228.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://k.sina.com.cn/article_1449770150_p5669bca602703hu1q.html",
+    "sourceUrls": [
+      "https://k.sina.com.cn/article_1449770150_p5669bca602703hu1q.html"
+    ],
+    "alternateUrls": [
+      "https://n.sinaimg.cn/sinakd20119/779/w2048h2731/20260327/3036-59c48b33ef34d68719f020c052bf7676.jpg"
+    ]
+  },
+  {
+    "keep": "a246d1aef163292c1f6d",
+    "remove": "8ca1ca011d5337a752e6",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5071215137392228.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://k.sina.com.cn/article_1449770150_p5669bca602703hu1q.html",
+    "sourceUrls": [
+      "https://k.sina.com.cn/article_1449770150_p5669bca602703hu1q.html"
+    ],
+    "alternateUrls": [
+      "https://n.sinaimg.cn/sinakd20119/779/w2048h2731/20260327/21e9-641f08eb9b9e826851eed7c121ad3dff.jpg"
+    ]
+  },
+  {
+    "keep": "ce519789767e47176149",
+    "remove": "df4fae10c581a82de02e",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5071215137392228.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://k.sina.com.cn/article_1449770150_p5669bca602703hu1q.html",
+    "sourceUrls": [
+      "https://k.sina.com.cn/article_1449770150_p5669bca602703hu1q.html"
+    ],
+    "alternateUrls": [
+      "https://n.sinaimg.cn/sinakd20119/384/w2048h1536/20260327/410e-6eee4b82e4c4a1ef414cf35930d56a3c.jpg"
+    ]
+  },
+  {
+    "keep": "6545af916f566fc19994",
+    "remove": "ad956be660e4a1d4a207",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5070862600635807.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://k.sina.com.cn/article_1449770150_p5669bca602703hu1q.html",
+    "sourceUrls": [
+      "https://k.sina.com.cn/article_1449770150_p5669bca602703hu1q.html"
+    ],
+    "alternateUrls": [
+      "https://n.sinaimg.cn/sinakd20119/782/w2048h2734/20260327/8536-3bca3e139968388149e566457c44b63d.jpg"
+    ]
+  },
+  {
+    "keep": "e3dd592f28a15bafd720",
+    "remove": "81143696356d94fd2361",
+    "primarySourceUrl": "https://www.sina.cn/news/detail/5070862600635807.html",
+    "reviewedAt": "2026-11-18",
+    "reason": "本轮人工对照确认同一底图；保留较高像素文件并合并出处，发布日期优先采用较早可核验来源",
+    "sourceUrl": "https://k.sina.com.cn/article_1449770150_p5669bca602703hu1q.html",
+    "sourceUrls": [
+      "https://k.sina.com.cn/article_1449770150_p5669bca602703hu1q.html"
+    ],
+    "alternateUrls": [
+      "https://n.sinaimg.cn/sinakd20119/785/w2048h2737/20260327/11b1-9fdf1f3c8dfe317e0599efd5d3bbb143.jpg"
+    ]
   }
 ]
